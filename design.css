@@ -1,0 +1,79 @@
+/* INICIO ESTILO DE LAS LETRAS */
+
+@font-face {
+    font-family: minecraft;
+    src: url(fonts/minecraft.ttf);
+}
+h1 {
+    font-family: minecraft;
+    color: rgb(49, 107, 11);
+}
+h2 {
+    font-family: minecraft;
+    color: rgb(0, 0, 0);
+}
+
+/* FIN ESTILO DE LAS LETRAS */
+
+body {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* INICIO ESTILO DE LOS BOTONES */
+
+.boton1 {
+    border: 0px solid #000000; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: #21790f; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 5px; /*bordes redondos*/
+    margin-right: 30px;
+    background-image: url(img/boton1.jpg);
+}
+
+.boton2 {
+    border: 0px solid #000000; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: #21790f; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 5px; /*bordes redondos*/
+    margin-right: 20px;
+    background-image: url(img/boton2.jpg);
+    
+
+}
+
+.boton3 {
+    border: 0px solid #000000; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: #21790f; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 5px; /*bordes redondos*/
+    margin-left: 10px;
+    background-image: url(img/boton3.jpg);
+}
+
+.boton4 {
+    border: 0px solid #000000; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: #21790f; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 5px; /*bordes redondos*/
+    margin-left: auto;
+}
+/* FIN ESTILO DE LOS BOTONES */
